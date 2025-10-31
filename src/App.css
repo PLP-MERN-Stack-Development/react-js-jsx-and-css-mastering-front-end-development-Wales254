@@ -1,0 +1,136 @@
+/* General App Styles */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6fc;
+  color: #222;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+/* Counter section */
+.counter-section {
+  text-align: center;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-red {
+  background-color: #dc2626;
+}
+.btn-red:hover {
+  background-color: #b91c1c;
+}
+
+.btn-green {
+  background-color: #16a34a;
+}
+.btn-green:hover {
+  background-color: #15803d;
+}
+
+.count {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.info-text {
+  color: #666;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* API Section */
+.api-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* API Section - User Cards */
+.user-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.user-card {
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.user-card h3 {
+  margin: 0;
+  color: #004aad;
+  font-size: 1.1rem;
+}
+
+.user-card p {
+  margin: 0.3rem 0;
+  color: #333;
+}
+
+.user-card small {
+  color: #666;
+  font-style: italic;
+}
