@@ -1,70 +1,36 @@
-# React.js and Tailwind CSS Assignment
+# React.js & CSS Task Manager – PLP Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project was built as part of the **PLP Software Engineering** program to demonstrate practical skills in **React.js**, **component-based architecture**, **state management with hooks**, and **CSS styling**.  
+It features a simple **Task Manager interface** that showcases reusable components, dynamic state updates, and modular file organization.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 Live Demo
 
-## Getting Started
+👉 https://incandescent-lokum-4175db.netlify.app/ 
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## 🧠 Project Overview
 
-## Files Included
+This app demonstrates:
+- React component architecture
+- State management using hooks (`useState`)
+- A reusable button component with props and validation via **PropTypes**
+- Clean and responsive CSS design (no Tailwind)
+- Integration-ready structure for future API data fetching
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## 🧰 Tech Stack
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+| Area            | Technology Used |
+|-----------------|----------------|
+| **Frontend**    | React.js (Vite) |
+| **Styling**     | Plain CSS |
+| **Language**    | JavaScript (ES6+) |
+| **Package Manager** | npm |
+| **Deployment**  | Netlify |
 
-## Project Structure
+---
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+## 📁 Project Structure
 
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
